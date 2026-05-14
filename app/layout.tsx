@@ -10,9 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Gabriel Tomala — Operations & Sales",
-  description:
-    "Gabriel Tomala — supply chain operator, logistics leader, and revenue builder with 8 years across operations and sales.",
+  title: "Gabriel Tomala",
+  description: "Logistics Operations · Sales · Builder",
+  openGraph: {
+    title: "Gabriel Tomala",
+    description: "Logistics Operations · Sales · Builder",
+  },
 };
 
 export default function RootLayout({
