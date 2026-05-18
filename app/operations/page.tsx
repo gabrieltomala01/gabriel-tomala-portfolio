@@ -14,6 +14,20 @@ const roles = [
       "Primary escalation point for daily exceptions — missed pickups, dropped loads, trailer shortages",
       "Sourced and negotiated carrier contracts across flatbed, dry van, and open top modes",
       "Built carrier scorecards, spend reporting, and quarterly budget tracking from scratch",
+      "Held quarterly carrier business reviews to evaluate performance, address exceptions, and align on capacity commitments",
+    ],
+  },
+  {
+    company: "Worldwide Express",
+    title: "Account Executive",
+    dates: "Nov 2024 – Sep 2025",
+    headline:
+      "Managed multimodal logistics solutions across parcel, LTL, and truckload for a growing book of B2B and B2C accounts.",
+    bullets: [
+      "Reviewed annual parcel spend for prospective customers and delivered cost-benefit analyses to support consolidation of UPS, LTL, and truckload programs",
+      "Built custom pricing models and shipping consolidation plans across UPS, LTL, and truckload modes",
+      "Conducted weekly LTL and UPS pricing audits across all active customer accounts",
+      "Communicated regularly with top 25 LTL carriers to ensure service quality and resolve escalations",
     ],
   },
   {
@@ -28,6 +42,8 @@ const roles = [
       "Built Salesforce CRM workflows, forecasting models, and executive dashboards for leadership reporting",
       "Coordinated distributed teams across Mexico, Europe, and the Middle East",
       "Prepared the financial and operational data package used by M&A advisors in the division's acquisition",
+      "Conducted regular QBRs with 60+ vendors across in-person and virtual settings — covering performance, capacity, and contract compliance",
+      "Negotiated carrier and vendor contracts in-person and via Zoom, managing rate agreements across US, cross-border, and international lanes",
     ],
   },
   {
