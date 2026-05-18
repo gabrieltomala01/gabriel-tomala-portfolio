@@ -157,13 +157,45 @@ export default function SalesPage() {
       <section className="px-6 md:px-12 py-[64px] md:py-[120px]">
         <div className="max-w-[720px] mx-auto">
           <FadeIn>
-            <h2 className="text-[42px] font-bold text-[#111111] mb-6 leading-tight">
+            <h2 className="text-[42px] font-bold text-[#111111] mb-10 leading-tight">
               Sales Philosophy
             </h2>
-            <p className="text-[16px] text-[#6B7280] leading-[1.7] italic">
-              Coming soon — a longer piece on how I think about sales, cold
-              outreach, and building relationships that compound over time.
-            </p>
+            <div className="space-y-6">
+              {[
+                {
+                  title: "Integrity.",
+                  body: "Long term over short term. Every time.",
+                },
+                {
+                  title: "Become the expert.",
+                  body: "Learn the business, the costs, and the gaps before the conversation starts. Anyone can send a price.",
+                },
+                {
+                  title: "Grit.",
+                  body: "The phone doesn't dial itself. Volume, preparation, follow-through — no shortcuts.",
+                },
+                {
+                  title: "Relationships compound.",
+                  body: "Manage them. Customer and vendor alike. The ones that last are built on consistent execution and honest communication.",
+                },
+                {
+                  title: "Remove friction.",
+                  body: "A difficult onboarding loses deals that were already won. Make it easy to say yes and easier to get started.",
+                },
+                {
+                  title: "Listen.",
+                  body: "The real problem is rarely the first one mentioned.",
+                },
+              ].map(({ title, body }) => (
+                <div key={title} className="flex gap-4">
+                  <span className="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-[#1A56DB]" />
+                  <p className="text-[16px] text-[#111111] leading-[1.7]">
+                    <span className="font-semibold">{title}</span>{" "}
+                    <span className="text-[#6B7280]">{body}</span>
+                  </p>
+                </div>
+              ))}
+            </div>
           </FadeIn>
         </div>
       </section>
