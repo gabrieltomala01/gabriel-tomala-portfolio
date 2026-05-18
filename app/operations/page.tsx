@@ -32,8 +32,8 @@ const roles = [
   },
   {
     company: "Veritiv Corporation",
-    title: "Director of Logistics, Operations & Sales",
-    dates: "Jun 2019 – Apr 2022",
+    title: "Supervisor, National Accounts",
+    dates: "May 2019 – Apr 2022",
     headline:
       "Managed a $120M freight portfolio across 120 enterprise accounts and led company-wide carrier RFPs.",
     bullets: [
@@ -41,17 +41,8 @@ const roles = [
       "Led multimodal freight RFPs for the entire company — set the standard for bid quality and carrier evaluation",
       "Built reporting and financial tracking systems that became the company benchmark",
       "94% portfolio retention across Fortune-level accounts",
-    ],
-  },
-  {
-    company: "Veritiv Corporation",
-    title: "Supervisor, National Accounts",
-    dates: "May 2019 – Jun 2019",
-    headline:
-      "Set the company standard for transportation data reporting and carrier performance tracking.",
-    bullets: [
       "Led company-wide freight RFPs across flatbed, dry van, and open top",
-      "Built monthly transportation spend reporting delivered to executive leadership",
+      "Built transportation spend reporting delivered to executive leadership",
     ],
   },
   {
