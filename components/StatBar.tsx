@@ -1,7 +1,7 @@
 const stats = [
   { value: "$120M+", label: "Largest Portfolio Managed" },
-  { value: "$2.8M", label: "Revenue Built from Zero" },
-  { value: "100+", label: "Enterprise Accounts" },
+  { value: "$0 → $2.8M", label: "Monthly Freight Revenue Built" },
+  { value: "100+", label: "Accounts Managed" },
   { value: "8 Years", label: "in Operations & Sales" },
 ];
 

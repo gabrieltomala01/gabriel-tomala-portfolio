@@ -49,9 +49,11 @@ export default function HomePage() {
                   className="font-bold text-[#111111] leading-[1.05] tracking-[-0.02em] mb-6"
                   style={{ fontSize: "clamp(42px, 6vw, 68px)" }}
                 >
-                  I run tight operations.
+                  Tight operations.
                   <br />
-                  I build lasting relationships.
+                  Lasting relationships.
+                  <br />
+                  <span className="text-[#6B7280]">Margin driven.</span>
                 </h1>
 
                 <p className="text-[16px] text-[#6B7280] leading-[1.7] max-w-xl mb-8">
