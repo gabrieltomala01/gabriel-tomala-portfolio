@@ -96,6 +96,35 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Logo bar */}
+      <section className="px-6 md:px-12 py-[32px] border-t border-[#E5E7EB]">
+        <div className="max-w-7xl mx-auto">
+          <p className="text-center text-[13px] text-[#6B7280] mb-6">
+            Accounts I&apos;ve worked with
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-12">
+            {[
+              { src: "/logos/westrock.png", alt: "WestRock" },
+              { src: "/logos/aldi.png", alt: "ALDI" },
+              { src: "/logos/autozone.png", alt: "AutoZone" },
+              { src: "/logos/novelis.png", alt: "Novelis" },
+              { src: "/logos/unfi.png", alt: "United Natural Foods" },
+              { src: "/logos/usfoods.png", alt: "US Foods" },
+            ].map(({ src, alt }) => (
+              <Image
+                key={alt}
+                src={src}
+                alt={alt}
+                width={120}
+                height={28}
+                unoptimized
+                className="h-12 w-auto object-contain grayscale opacity-40 hover:opacity-80 transition-opacity duration-200 ease-in-out"
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* About */}
       <section className="px-6 md:px-12 py-[64px] md:py-[120px] border-t border-[#E5E7EB]">
         <div className="max-w-[720px] mx-auto">
