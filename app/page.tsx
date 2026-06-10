@@ -112,6 +112,9 @@ export default function HomePage() {
               { src: "/logos/novelis.png", alt: "Novelis" },
               { src: "/logos/unfi.png", alt: "United Natural Foods" },
               { src: "/logos/usfoods.png", alt: "US Foods" },
+              { src: "/logos/nucor.png", alt: "Nucor" },
+              { src: "/logos/hp.png", alt: "HP" },
+              { src: "/logos/dell.png", alt: "Dell" },
             ].map(({ src, alt }) => (
               <Image
                 key={alt}
