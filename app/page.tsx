@@ -102,7 +102,7 @@ export default function HomePage() {
       <section className="px-6 md:px-12 py-[32px] border-t border-[#E5E7EB]">
         <div className="max-w-7xl mx-auto">
           <p className="text-center text-[13px] text-[#6B7280] mb-6">
-            Accounts I&apos;ve worked with
+            Some accounts I&apos;ve worked with
           </p>
           <div className="flex flex-wrap items-center justify-center gap-12">
             {[
